@@ -8,19 +8,19 @@ $(document).ready(function() {
 
 	var gemOne = Math.floor(Math.random() * 11) + 1; 
 		console.log("Gem 1: " + gemOne); 
-		$("#img1").html("<img src=" + "https://github.com/jckayy/unit-4-game2/blob/master/assets/images/image1.PNG" + " value=" + gemOne + ">"); 
+		$("#img1").html("<img src=" + "'https://github.com/jckayy/unit-4-game2/blob/master/assets/images/image1.PNG'" + " value=" + gemOne + ">"); 
 
 	var gemTwo = Math.floor(Math.random() * 11) + 1; 
 		console.log("Gem 2: " + gemTwo); 
-		$("#img2").html("<img src=" + "../images/image2.png" + " value=" + gemTwo + ">"); 
+		$("#img2").html("<img src=" + "'../images/image2.png'" + " value=" + gemTwo + ">"); 
 
 	var gemThree = Math.floor(Math.random() * 11) + 1; 
 		console.log("Gem 3: " + gemThree); 
-		$("#img3").html("<img src=" + "assets/images/image3.png" + " value=" + gemThree + ">");
+		$("#img3").html("<img src=" + "'../images/image3.png'" + " value=" + gemThree + ">");
 	
 	var gemFour = Math.floor(Math.random() * 11) + 1; 
 		console.log("Gem 4: " + gemFour); 
-		$("#img4").html("<img src=" + "assets/images/image4.png" + " value=" + gemFour + ">");
+		$("#img4").html("<img src=" + "'../images/image4.png'" + " value=" + gemFour + ">");
 		
 	var wins = 0; 
 		console.log("wins: " + wins); 
