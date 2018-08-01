@@ -8,11 +8,11 @@ $(document).ready(function() {
 
 	var gemOne = Math.floor(Math.random() * 11) + 1; 
 		console.log("Gem 1: " + gemOne); 
-		$("#img1").html("<img src=" + "assets/images/image1.png" + " value=" + gemOne + ">"); 
+		$("#img1").html("<img src=" + "../images/image1.png" + " value=" + gemOne + ">"); 
 
 	var gemTwo = Math.floor(Math.random() * 11) + 1; 
 		console.log("Gem 2: " + gemTwo); 
-		$("#img2").html("<img src=" + "assets/images/image2.png" + " value=" + gemTwo + ">"); 
+		$("#img2").html("<img src=" + "../images/image2.png" + " value=" + gemTwo + ">"); 
 
 	var gemThree = Math.floor(Math.random() * 11) + 1; 
 		console.log("Gem 3: " + gemThree); 
