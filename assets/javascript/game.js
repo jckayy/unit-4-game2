@@ -8,7 +8,7 @@ $(document).ready(function() {
 
 	var gemOne = Math.floor(Math.random() * 11) + 1; 
 		console.log("Gem 1: " + gemOne); 
-		$("#img1").html("<img src=" + "../images/image1.png" + " value=" + gemOne + ">"); 
+		$("#img1").html("<img src=" + "https://github.com/jckayy/unit-4-game2/blob/master/assets/images/image1.PNG" + " value=" + gemOne + ">"); 
 
 	var gemTwo = Math.floor(Math.random() * 11) + 1; 
 		console.log("Gem 2: " + gemTwo); 
