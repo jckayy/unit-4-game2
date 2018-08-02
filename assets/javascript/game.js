@@ -8,7 +8,7 @@ $(document).ready(function() {
 
 	var gemOne = Math.floor(Math.random() * 11) + 1; 
 		console.log("Gem 1: " + gemOne); 
-		$("#img1").html("<img src=" + "assets/images/image1.png" + " value=" + gemOne + ">"); 
+		$("#img1").html("<img src= 'assets/images/image1.png' />" + " value=" + gemOne); 
 
 	var gemTwo = Math.floor(Math.random() * 11) + 1; 
 		console.log("Gem 2: " + gemTwo); 
@@ -16,11 +16,11 @@ $(document).ready(function() {
 
 	var gemThree = Math.floor(Math.random() * 11) + 1; 
 		console.log("Gem 3: " + gemThree); 
-		$("#img3").html("<img src=" + "assets/images/image3.png" + " value=" + gemThree + ">");
+		$("#img3").html("<img src= '../images/image3.png'" + " value=" + gemThree + ">");
 	
 	var gemFour = Math.floor(Math.random() * 11) + 1; 
 		console.log("Gem 4: " + gemFour); 
-		$("#img4").html("<img src=" + "assets/images/image4.png" + " value=" + gemFour + ">");
+		$("#img4").html("<img src=" + "../images/image4.png" + " value=" + gemFour + ">");
 		
 	var wins = 0; 
 		console.log("wins: " + wins); 
